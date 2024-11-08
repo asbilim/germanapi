@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Verb,VerbCharacteristic
 
-# Register your models here.
+admin.site.register(VerbCharacteristic)
+admin.site.register(Verb)
